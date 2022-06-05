@@ -1,0 +1,16 @@
+.inverted {
+    background-color: #000000;
+    color: hsla(360, 0%, 100%, 1.0);
+}
+
+.yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+/* Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback */
+
+.inverted,
+.yellow {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
