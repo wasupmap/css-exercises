@@ -2,6 +2,8 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+/* <--This was the solution, but I prefer mine as it's more customizable. */
+
 img {
   width: 100px;
   height: 100px;
@@ -10,6 +12,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+
+}
+
+.plants-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.plant-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  row-gap: 8px;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
 }
 
 /* do not edit this footer */
