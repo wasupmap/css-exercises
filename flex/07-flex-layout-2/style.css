@@ -39,6 +39,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  min-width:800px;
 }
 
 ul {
@@ -70,10 +71,12 @@ body {
   /* justify-self: stretch; <--- not needed! */
   display: flex;
   flex: 1;
+  flex-shrink: 0;
+  min-width: 500px;
 }
 
 .sidebar {
-/* min-width: 300px; */
+min-width: 300px;
 flex-shrink: 0;
 
 }
@@ -81,7 +84,7 @@ flex-shrink: 0;
   display: flex;
   flex-flow: row wrap;
   padding: 32px;
-  flex: 1;
+  
 }
 
 .card {
@@ -91,8 +94,9 @@ flex-shrink: 0;
 }
 
 .footer {
-  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 800px;
+  margin: 0;
 }
